@@ -1,4 +1,4 @@
-# Assignment 1
+# Assignment 1 (customization)
 
 Mackenzie Craig, Vafa Dehghan Saei, Anthony Vu, Morgan Ariss
 

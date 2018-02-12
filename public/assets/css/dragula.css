@@ -1,0 +1,186 @@
+.player>img {
+  position: relative;
+}
+
+.items>.hat>img {
+  width: 10%;
+}
+
+.items>.body>img {
+  width: 10%;
+}
+
+.items>.hand>img {
+  width: 10%;
+}
+
+.items>.foot>img {
+  width: 10%;
+}
+
+.items>img {
+  width: 10%;
+}
+
+.head {
+  height: 90px;
+  width: 90px;
+  margin-top: 10px;
+  margin-left: 210px;
+  position: absolute;
+  border: 2.5px solid;
+  color: orange;
+  opacity: 0.8;
+  background-color: blue;
+  z-index: 1000;
+}
+
+.upper {
+  height: 130px;
+  width: 130px;
+  margin-left: 180px;
+  margin-top: 120px;
+  position: absolute;
+  border: 2.5px solid;
+  z-index: 1000;
+  color: orange;
+  opacity: 0.8;
+  background-color: blue;
+}
+
+.leftHand {
+  height: 75px;
+  width: 75px;
+  margin-top: 35px;
+  margin-left: 25px;
+  position: absolute;
+  border: 2.5px solid;
+  color: orange;
+  opacity: 0.8;
+  background-color: blue;
+  z-index: 1000;
+}
+
+.rightHand {
+  height: 75px;
+  width: 75px;
+  margin-top: 35px;
+  margin-left: 410px;
+  position: absolute;
+  border: 2.5px solid;
+  color: orange;
+  opacity: 0.8;
+  background-color: blue;
+  z-index: 1000;
+}
+
+.leftFoot {
+  height: 75px;
+  width: 75px;
+  margin-top: 420px;
+  margin-left: 70px;
+  position: absolute;
+  border: 2.5px solid;
+  color: orange;
+  opacity: 0.8;
+  background-color: blue;
+  z-index: 1000;
+}
+
+.rightFoot {
+  height: 75px;
+  width: 75px;
+  margin-top: 420px;
+  margin-left: 350px;
+  position: absolute;
+  border: 2.5px solid;
+  color: orange;
+  opacity: 0.8;
+  background-color: blue;
+  z-index: 1000;
+}
+
+.head>img {
+  margin: auto;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.upper>img {
+  width: 100%;
+  height: 100%;
+}
+
+.leftHand>img {
+  width: 100%;
+  height: 100%;
+}
+
+.rightHand>img {
+  width: 100%;
+  height: 100%;
+}
+
+.leftFoot>img {
+  width: 100%;
+  height: 100%;
+}
+
+.rightFoot>img {
+  width: 100%;
+  height: 100%;
+}
+
+.coupontooltip-text {
+  margin-left: 10px;
+}
+
+.coupontooltip {
+  display: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #FFF;
+  position: fixed;
+  z-index: 1000;
+  margin-left: 20px;
+  width: 200px;
+  height: 250px;
+  border: 2px solid #FFF;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.categories {
+  display: inline-block;
+}
+
+.square {
+  height: 75px;
+  width: 75px;
+}
+
+.accessoryDiv {
+  float: left;
+}
+
+.coupontooltip h4 {
+  font-size: 32px;
+  text-align: center;
+}
+
+.couponcode:hover .coupontooltip {
+  display: block;
+  padding: 0px;
+}
+
+.items {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding-left: 20px;
+  border-radius: 10px;
+}
+
+#all-items {
+  margin: auto;
+}
