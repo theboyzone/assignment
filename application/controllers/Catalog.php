@@ -18,7 +18,6 @@ class Catalog extends Application
         }
         
         $this->data['categories'] = $categories;
-
         $this->data['pagebody'] = 'catalog';
         $this->data['pagetitle'] = 'All options';
 

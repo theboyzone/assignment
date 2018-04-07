@@ -1,13 +1,13 @@
 $("#setsList").on('click', 'li', loadPreset);
 
 /**
- * Loads the pre-set options onto the character.
+ * Loads the pre-set
  */
 function loadPreset() {
   // Get the set id.
   var setID = $(this).attr("data-setid");
   console.log(setID);
-
+  // Add accessories to character
   if (setID == 0) {
     $('#head').html('');
     $('#head').prepend('<img src="assets/img/glasses.png" />');

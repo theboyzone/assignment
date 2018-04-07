@@ -1,3 +1,4 @@
+// Drag accessories to head
 var dragHead = dragula([document.querySelector('.hat'), document.querySelector('.head')], {
   accepts: function(el, target, source, sibling) {
     if (target.className === "head") {
@@ -13,6 +14,7 @@ var dragHead = dragula([document.querySelector('.hat'), document.querySelector('
   }
 });
 
+// Drag accessories to chest
 var dragBody = dragula([document.querySelector('.body'), document.querySelector('.upper')], {
   accepts: function(el, target, source, sibling) {
     if (target.className === "upper") {
@@ -28,6 +30,7 @@ var dragBody = dragula([document.querySelector('.body'), document.querySelector(
   }
 });
 
+// Drag accessories to left or right hand
 var dragHands = dragula([document.querySelector('.hand'), document.querySelector('.leftHand'), document.querySelector('.rightHand')], {
   accepts: function(el, target, source, sibling) {
     if (target.className === "leftHand" || target.className === "rightHand") {
@@ -44,6 +47,7 @@ var dragHands = dragula([document.querySelector('.hand'), document.querySelector
   copy: false
 });
 
+// Drag accessories to left or right foot
 var dragFeet = dragula([document.querySelector('.foot'), document.querySelector('.leftFoot'), document.querySelector('.rightFoot')], {
   accepts: function(el, target, source, sibling) {
     if (target.className === "leftFoot" || target.className === "rightFoot") {

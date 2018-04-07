@@ -27,6 +27,7 @@
 
 <div class="row">
 <div class="col-md-6">
+  <!--Character-->
   <span class="player">
     <span id="head" class="head"></span>
     <span id="upper" class="upper"></span>
@@ -40,6 +41,7 @@
 </div>
 
 <div class="col-md-6">
+  <!--Pre-made sets-->
   <h4>Sets:</h4>
   <div class="dropdown">
     <ul id="setsList">
