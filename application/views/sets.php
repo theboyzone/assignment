@@ -17,6 +17,16 @@
         <a class="nav-link" href="/catalog">Catalog</a>
       </li>
     </ul>
+    <ul class="nav">
+    <li class="dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" href="#">{user_role}<b class="caret"></b></a>
+      <ul class="dropdown-menu" role="menu">
+          <li><a href="/role/actor/Guest">Guest</a></li>
+          <li><a href="/role/actor/User">User</a></li>
+          <li><a href="/role/actor/Owner">Owner</a></li>
+      </ul>
+    </li>
+</ul>
   </div>
 </nav>
 
