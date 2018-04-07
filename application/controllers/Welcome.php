@@ -15,6 +15,14 @@ class Welcome extends Application
 
         $this->data['sets'] = $sets;
 
+        $role = $this->session->userdata('user_role');
+
+        if (is_null($role)) {
+            $role = "Guest";
+        }
+
+        $this->data['user_role'] = $role;
+
         $this->data['pagebody'] = 'sets';
         $this->data['pagetitle'] = 'Home';
         $this->render();

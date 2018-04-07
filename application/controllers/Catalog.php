@@ -16,7 +16,15 @@ class Catalog extends Application
             }
             $category->accessories = $accessories;
         }
-        
+
+        $role = $this->session->userdata('user_role');
+
+        if (is_null($role)) {
+            $role = "Guest";
+        }
+
+        $this->data['user_role'] = $role;
+
         $this->data['categories'] = $categories;
         $this->data['pagebody'] = 'catalog';
         $this->data['pagetitle'] = 'All options';
