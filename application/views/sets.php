@@ -14,7 +14,7 @@
         <a class="nav-link" href="/welcome">Home<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="/catalog">Catalog</a>
+        {navbar_btn}
       </li>
     </ul>
     <ul class="nav">
