@@ -7,7 +7,7 @@ class UnitTests extends TestCase
     {
         $this->CI = &get_instance();
         $this->CI->load->model('singleaccessory');
-        $this->accessory = new SingleAccessory;
+        $this->accessory = new Accessory;
     }
 
     public function testValidName()
