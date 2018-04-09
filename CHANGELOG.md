@@ -56,3 +56,27 @@
 ## 1.0.12 - 2018-02-11
 
 - Final PR, fixes duplicating footwear and tooltips
+
+## 1.1.1 - 2018-04-08
+
+- Add unit tests for existing code
+
+## 1.1.2 - 2018-04-08
+
+- Add user roles
+
+## 1.1.3 - 2018-04-08
+
+- Add user role enforcement
+
+## 1.1.4 - 2018-04-08
+
+- Add item maintenance
+
+## 1.1.5 - 2018-04-08
+
+- Add travis config
+
+## 1.1.6 - 2018-04-08
+
+- Fix minor class naming issues to allow travis to pass
