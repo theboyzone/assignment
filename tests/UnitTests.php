@@ -6,7 +6,7 @@ class UnitTests extends TestCase
     public function setUp()
     {
         $this->CI = &get_instance();
-        $this->CI->load->model('singleaccessory');
+        $this->CI->load->model('accessory');
         $this->accessory = new Accessory;
     }
 
