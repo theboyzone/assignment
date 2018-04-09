@@ -1,17 +1,22 @@
 accessoryId,accessoryName,accessoryImg,accessoryComfort,accessorySpeed,accessoryProfessionality,categoryId,categoryName
-0,"Fedora",assets/img/hat.png,6,3,9,0,head
-3,"Cap",assets/img/hat4.png,8,5,2,0,head
+0,Fedora,assets/img/hat.png,6,3,9,0,head
+3,Cap,assets/img/hat4.png,8,5,2,0,head
 4,"Eye Glasses",assets/img/glasses.png,5,3,8,0,head
-5,"Sun Glasses",assets/img/glasses2.png,8,7,3,0,head
-6,"Sweater",assets/img/sweater.png,8,4,6,1,body
-7,"Knife",assets/img/knife.png,0,0,0,2,hand
+5,"Sun Glasses",assets/img/glasses2.png,8,7,3,0,head,"Sun Glasses",assets/img/glasses2.png,8,7,3,1,"Update the accessory"
+6,Sweater,assets/img/sweater.png,8,4,6,1,body
+7,Knife,assets/img/knife.png,0,0,0,2,hand
 8,"Balenciaga Triple S",assets/img/triples.png,6,10,3,3,foot
-9,"Watch",assets/img/watch.png,7,1,10,2,hand
-10,"Birks",assets/img/sandals.png,8,4,4,3,foot
+9,Watch,assets/img/watch.png,7,1,10,2,hand
+10,Birks,assets/img/sandals.png,8,4,4,3,foot
 11,"BCIT Hoodie",assets/img/hoodie.png,10,3,1,1,body
-12,"Coffee",assets/img/coffee.png,8,8,5,2,hand
+12,Coffee,assets/img/coffee.png,8,8,5,2,hand
 13,"Mac Book Charger",assets/img/charger.png,0,0,5,2,hand
 14,"White Sneakers",assets/img/whiteshoes.png,6,5,5,3,foot
 15,"Running Shoes",assets/img/runners.png,6,10,2,3,foot
 16,"Canada Goose",assets/img/goose.png,8,3,4,1,body
 17,"Down Jacket",assets/img/northface.png,9,6,4,1,body
+18,,,,,,,
+19,,,,,,,
+20,,,,,,,
+21,,,,,,,
+22,,,,,,,
