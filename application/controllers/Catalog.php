@@ -16,8 +16,23 @@ class Catalog extends Application
             }
             $category->accessories = $accessories;
         }
-        
+
+        $role = $this->session->userdata('user_role');
+
+        if (is_null($role)) {
+            $role = "Guest";
+        } 
+		
+		if($role == "Owner") {
+          $navbar_btn1 = '<a class="nav-link" id="maintenance" href="/maintenance">Maintenance</a>';
+          $this->data['navbar_btn1'] = $navbar_btn1;
+        } else {
+			$this->data['navbar_btn1'] = '';
+		}
+
+        $this->data['user_role'] = $role;
         $this->data['categories'] = $categories;
+
         $this->data['pagebody'] = 'catalog';
         $this->data['pagetitle'] = 'All options';
 
