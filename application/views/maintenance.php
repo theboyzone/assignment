@@ -13,8 +13,8 @@
       <li class="nav-item">
         <a class="nav-link" href="/welcome">Home<span class="sr-only">(current)</span></a>
       </li>
-	  <li class="nav-item">
-        {navbar_btn1}
+      <li class="nav-item active">
+        <a class="nav-link" href="/catalog">Return</a>
       </li>
     </ul>
     <ul class="nav">
@@ -30,20 +30,10 @@
 </nav>
 
 <div class="row">
-	<!--Boxes that hold accessories-->
-	<div class="col-md-6">
-		<span class="player">
-		<span class="head"></span>
-		<span class="upper"></span>
-	    <span class="leftHand"></span>
-		<span class="rightHand"></span>
-		<span class="leftFoot"></span>
-		<span class="rightFoot"></span>
-		  <img src="assets/img/man2.png">
-		</span>
-	</div>
+	
     <!--Accessories-->
 	<div class="col-md-6">
+	<a href="/maintenance/add"><input type="button" value="Add a new item"/></a>
 	<div id="all-items" class="items">
 		{categories}
 		<h2>{categoryName}</h2>
@@ -52,7 +42,9 @@
 
 		{accessories}
 			<div id="{accessoryName}" class="accessoryDiv couponcode">
+				<a href="/maintenance/edit/{accessoryId}">
                 <img class="square" src="{accessoryImg}"/>
+				<a/>
                 <div class="coupontooltip">
 					<div class="coupontooltip-text">
 						<h4>{accessoryName}</h4>

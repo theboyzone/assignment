@@ -1,20 +1,20 @@
 <?php
-class SingleAccessory extends Entity
+class Accessory extends Entity
 {
     // Accessory Id
-    public $id;
+    private $id;
     // Accessory name
-    public $name;
+    private $name;
     // Accessory image path
-    public $img;
+    private $img;
     // Accessory comfort
-    public $comfort;
+    private $comfort;
     // Accessory speed
-    public $speed;
+    private $speed;
     // Accessory professionality
-    public $professionality;
+    private $professionality;
     // Category id (FK)
-    public $categoryId;
+    private $categoryId;
 
 
     public function setName($value)
